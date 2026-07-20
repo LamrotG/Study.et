@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Something Great is Coming</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@500&display=swap"
+  rel="stylesheet"
+/>
+<style>
+  :root {
+    --bg: #f6f7f5;
+    --ink: #1a2321;
+    --ink-soft: #57635f;
+    --ink-faint: #8b948f;
+    --accent: #1f5c57;
+    --hairline: #dee2df;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1412;
+      --ink: #edefec;
+      --ink-soft: #a4afab;
+      --ink-faint: #6b756f;
+      --accent: #7cc2b6;
+      --hairline: #232f2a;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0e1412;
+    --ink: #edefec;
+    --ink-soft: #a4afab;
+    --ink-faint: #6b756f;
+    --accent: #7cc2b6;
+    --hairline: #232f2a;
+  }
+
+  :root[data-theme="light"] {
+    --bg: #f6f7f5;
+    --ink: #1a2321;
+    --ink-soft: #57635f;
+    --ink-faint: #8b948f;
+    --accent: #1f5c57;
+    --hairline: #dee2df;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    transition: background 0.4s ease, color 0.4s ease;
+  }
+
+  main {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 34rem;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: "Geist", sans-serif;
+    font-weight: 500;
+    font-size: clamp(2.25rem, 4.5vw + 1rem, 3.75rem);
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    text-wrap: balance;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: rise-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation-delay: 0.1s;
+  }
+
+  p.lede {
+    margin: 1.5rem 0 0;
+    font-family: "Geist", sans-serif;
+    font-size: clamp(1rem, 0.4vw + 0.9rem, 1.125rem);
+    line-height: 1.65;
+    font-weight: 300;
+    color: var(--ink-soft);
+    max-width: 30em;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: rise-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation-delay: 0.32s;
+  }
+
+  .indicator {
+    margin-top: 3rem;
+    display: flex;
+    gap: 0.55rem;
+    padding: 0.5rem;
+    opacity: 0;
+    animation: fade-in 0.9s ease forwards;
+    animation-delay: 0.6s;
+  }
+
+  .indicator .dot {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: var(--accent);
+    animation: breathe 1.7s ease-in-out infinite;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+
+  .indicator .dot:nth-child(1) { animation-delay: 0s; }
+  .indicator .dot:nth-child(2) { animation-delay: 0.22s; }
+  .indicator .dot:nth-child(3) { animation-delay: 0.44s; }
+
+  .indicator:hover .dot {
+    transform: scale(1.15);
+  }
+
+  footer {
+    flex-shrink: 0;
+    padding: 1.6rem 1.5rem;
+    text-align: center;
+    border-top: 1px solid var(--hairline);
+    opacity: 0;
+    animation: fade-in 1s ease forwards;
+    animation-delay: 0.8s;
+  }
+
+  footer p {
+    margin: 0;
+    font-family: "Geist Mono", "Geist", monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  @keyframes rise-in {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-in {
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes breathe {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(0.72);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    h1, p.lede, .indicator, footer {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+    .indicator .dot {
+      animation: none !important;
+      opacity: 0.65 !important;
+      transform: none !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <div class="content">
+    <h1>Something Great is Coming</h1>
+    <p class="lede">
+      We're building something we're proud of. Our website is currently
+      under development and will be launching soon.
+    </p>
+    <div class="indicator" aria-hidden="true">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

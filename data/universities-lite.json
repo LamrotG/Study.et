@@ -1,0 +1,2329 @@
+[
+  {
+    "slug": "adama-science-and-technology-university",
+    "name": "Adama Science and Technology University",
+    "alternateNames": [
+      "ASTU"
+    ],
+    "officialWebsite": "https://www.astu.edu.et/",
+    "institutionType": null,
+    "city": "Adama",
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-18",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Business & Economics",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Architecture",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Biology",
+        "Geology",
+        "Pharmacy",
+        "Journalism & Communication"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 5,
+      "departmentCount": 16,
+      "programmeCount": 47
+    }
+  },
+  {
+    "slug": "addis-ababa-science-and-technology-university",
+    "name": "Addis Ababa Science and Technology University",
+    "alternateNames": [
+      "AASTU",
+      "አዲስ አበባ ሳይንስና ቴክኖሎጂ ዩኒቨርሲቲ"
+    ],
+    "officialWebsite": "https://www.aastu.edu.et/",
+    "institutionType": null,
+    "city": "Addis Ababa",
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-18",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Natural & Physical Sciences",
+        "Business & Economics"
+      ],
+      "departments": [
+        "Software Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Architecture",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Statistics",
+        "Geology"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's"
+      ]
+    },
+    "stats": {
+      "unitCount": 3,
+      "departmentCount": 17,
+      "programmeCount": 11
+    }
+  },
+  {
+    "slug": "addis-ababa-university",
+    "name": "Addis Ababa University",
+    "alternateNames": [
+      "AAU",
+      "አዲስ አበባ ዩኒቨርሲቲ"
+    ],
+    "officialWebsite": "https://www.aau.edu.et/",
+    "institutionType": "Public (autonomous public university)",
+    "city": "Addis Ababa",
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-18",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities",
+        "Arts & Design"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Biomedical Engineering",
+        "Architecture",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Business Administration",
+        "Logistics & Supply Chain Management",
+        "Medicine",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Medical Laboratory Sciences",
+        "Veterinary Medicine",
+        "Sociology",
+        "Psychology",
+        "Political Science",
+        "Journalism & Communication",
+        "Fine Arts",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's"
+      ]
+    },
+    "stats": {
+      "unitCount": 3,
+      "departmentCount": 0,
+      "programmeCount": 72
+    }
+  },
+  {
+    "slug": "adigrat-university",
+    "name": "Adigrat University",
+    "alternateNames": [
+      "AdU",
+      "ዓዲግራት ዩኒቨርሲቲ"
+    ],
+    "officialWebsite": "https://www.adu.edu.et/",
+    "institutionType": "Public",
+    "city": "Adigrat",
+    "region": "Tigray",
+    "regionGroup": "Tigray",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-18",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Business & Economics"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Architecture",
+        "Construction Technology & Management",
+        "Economics",
+        "Marketing",
+        "Logistics & Supply Chain Management",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's"
+      ]
+    },
+    "stats": {
+      "unitCount": 8,
+      "departmentCount": 18,
+      "programmeCount": 16
+    }
+  },
+  {
+    "slug": "aksum-university",
+    "name": "Aksum University",
+    "alternateNames": [
+      "AKU",
+      "አክሱም ዩኒቨርሲቲ"
+    ],
+    "officialWebsite": "https://aku.edu.et/",
+    "institutionType": "Public",
+    "city": "Aksum",
+    "region": "Tigray",
+    "regionGroup": "Tigray",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-18",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Civil Engineering",
+        "Industrial Engineering",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Nursing",
+        "Pharmacy",
+        "Sociology",
+        "Psychology"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 8,
+      "departmentCount": 21,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "ambo-university",
+    "name": "Ambo University",
+    "alternateNames": [
+      "AU"
+    ],
+    "officialWebsite": "https://www.ambou.edu.et/",
+    "institutionType": null,
+    "city": "Ambo",
+    "region": "Oromia (West Shewa Zone)",
+    "regionGroup": "Oromia",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-19",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Industrial Engineering",
+        "Architecture",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Marketing",
+        "Medicine",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Veterinary Medicine",
+        "Agriculture",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Political Science",
+        "Journalism & Communication",
+        "English Language & Literature"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD",
+        "Specialization"
+      ]
+    },
+    "stats": {
+      "unitCount": 9,
+      "departmentCount": 45,
+      "programmeCount": 98
+    }
+  },
+  {
+    "slug": "arba-minch-university",
+    "name": "Arba Minch University",
+    "alternateNames": [
+      "AMU"
+    ],
+    "officialWebsite": "https://www.amu.edu.et/",
+    "institutionType": null,
+    "city": "Arba Minch",
+    "region": "Southern Nations, Nationalities, and Peoples' Region (Gamo Zone)",
+    "regionGroup": "Southern Nations, Nationalities, and Peoples' Region",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-19",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Software Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Architecture",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Business Administration",
+        "Public Health",
+        "Veterinary Medicine",
+        "Agriculture",
+        "Animal Science",
+        "Sociology"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 8,
+      "departmentCount": 23,
+      "programmeCount": 59
+    }
+  },
+  {
+    "slug": "arsi-university",
+    "name": "Arsi University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.arsiun.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-19",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 6,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "assosa-university",
+    "name": "Assosa University",
+    "alternateNames": [
+      "ASU"
+    ],
+    "officialWebsite": "https://www.asu.edu.et/",
+    "institutionType": "Public",
+    "city": "Assosa",
+    "region": "Benishangul-Gumuz",
+    "regionGroup": "Benishangul-Gumuz",
+    "generation": "3rd Generation",
+    "status": "complete",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Business Administration",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Veterinary Medicine",
+        "Agriculture",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's"
+      ]
+    },
+    "stats": {
+      "unitCount": 8,
+      "departmentCount": 43,
+      "programmeCount": 66
+    }
+  },
+  {
+    "slug": "bahir-dar-university",
+    "name": "Bahir Dar University",
+    "alternateNames": [
+      "BDU"
+    ],
+    "officialWebsite": "https://www.bdu.edu.et/",
+    "institutionType": null,
+    "city": "Bahir Dar",
+    "region": "Amhara",
+    "regionGroup": "Amhara",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities",
+        "Arts & Design"
+      ],
+      "departments": [
+        "Industrial Engineering",
+        "Architecture",
+        "Chemistry",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Marketing",
+        "Business Administration",
+        "Logistics & Supply Chain Management",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Veterinary Medicine",
+        "Agriculture",
+        "Animal Science",
+        "Journalism & Communication",
+        "English Language & Literature"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 16,
+      "departmentCount": 47,
+      "programmeCount": 88
+    }
+  },
+  {
+    "slug": "bonga-university",
+    "name": "Bonga University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.bongau.edu.et/",
+    "institutionType": "Public",
+    "city": "Bonga",
+    "region": "South-West Ethiopia Region (Kaffa Zone)",
+    "regionGroup": "South West Ethiopia Peoples' Region",
+    "generation": null,
+    "status": "complete",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Business Administration",
+        "Nursing",
+        "Midwifery",
+        "Public Health",
+        "Veterinary Medicine",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Political Science",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 6,
+      "departmentCount": 43,
+      "programmeCount": 55
+    }
+  },
+  {
+    "slug": "bule-hora-university",
+    "name": "Bule Hora University",
+    "alternateNames": [
+      "BHU"
+    ],
+    "officialWebsite": "https://www.bhu.edu.et/",
+    "institutionType": null,
+    "city": "Bule Hora",
+    "region": "Oromia (West Guji Zone)",
+    "regionGroup": "Oromia",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Information Technology",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Marketing",
+        "Business Administration",
+        "Logistics & Supply Chain Management",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Veterinary Medicine",
+        "Agriculture",
+        "Psychology"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 7,
+      "departmentCount": 48,
+      "programmeCount": 82
+    }
+  },
+  {
+    "slug": "debark-university",
+    "name": "Debark University",
+    "alternateNames": [
+      "DKU"
+    ],
+    "officialWebsite": "https://www.dku.edu.et/",
+    "institutionType": "Public",
+    "city": "Debark",
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Information Technology",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Marketing",
+        "Nursing",
+        "Midwifery",
+        "Medical Laboratory Sciences",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's"
+      ]
+    },
+    "stats": {
+      "unitCount": 6,
+      "departmentCount": 32,
+      "programmeCount": 35
+    }
+  },
+  {
+    "slug": "debre-berhan-university",
+    "name": "Debre Berhan University",
+    "alternateNames": [
+      "DBU"
+    ],
+    "officialWebsite": "https://www.dbu.edu.et/",
+    "institutionType": "Public",
+    "city": "Debre Berhan",
+    "region": "Amhara (North Shoa Zone)",
+    "regionGroup": "Amhara",
+    "generation": "2nd Generation",
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Industrial Engineering",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Public Health",
+        "Veterinary Medicine",
+        "Agriculture",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 8,
+      "departmentCount": 17,
+      "programmeCount": 63
+    }
+  },
+  {
+    "slug": "debre-markos-university",
+    "name": "Debre Markos University",
+    "alternateNames": [
+      "DMU"
+    ],
+    "officialWebsite": "https://www.dmu.edu.et/",
+    "institutionType": null,
+    "city": "Debre Markos",
+    "region": "Amhara (East Gojjam Zone)",
+    "regionGroup": "Amhara",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Software Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Agriculture",
+        "Animal Science",
+        "Sociology",
+        "Political Science",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Master's",
+        "Bachelor's"
+      ]
+    },
+    "stats": {
+      "unitCount": 9,
+      "departmentCount": 32,
+      "programmeCount": 33
+    }
+  },
+  {
+    "slug": "debre-tabor-university",
+    "name": "Debre Tabor University",
+    "alternateNames": [
+      "DTU"
+    ],
+    "officialWebsite": "https://www.dtu.edu.et/",
+    "institutionType": null,
+    "city": "Debre Tabor",
+    "region": "Amhara",
+    "regionGroup": "Amhara",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities",
+        "Arts & Design"
+      ],
+      "departments": [
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Business Administration",
+        "Midwifery",
+        "Veterinary Medicine",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 6,
+      "departmentCount": 27,
+      "programmeCount": 28
+    }
+  },
+  {
+    "slug": "dembi-dolo-university",
+    "name": "Dembi Dolo University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.dedu.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "dilla-university",
+    "name": "Dilla University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.du.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "dire-dawa-university",
+    "name": "Dire Dawa University",
+    "alternateNames": [
+      "DDU"
+    ],
+    "officialWebsite": "https://www.ddu.edu.et/",
+    "institutionType": null,
+    "city": "Dire Dawa",
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Civil Engineering",
+        "Industrial Engineering",
+        "Architecture",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Logistics & Supply Chain Management",
+        "Nursing",
+        "Midwifery",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Psychology",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 6,
+      "departmentCount": 33,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "ethiopian-public-service-university",
+    "name": "Ethiopian Public Service University",
+    "alternateNames": [
+      "EPSU",
+      "Ethiopian Civil Service University"
+    ],
+    "officialWebsite": "https://www.epsu.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "gambella-university",
+    "name": "Gambella University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.gmu.edu.et/",
+    "institutionType": null,
+    "city": "Gambella",
+    "region": "Gambella Region",
+    "regionGroup": "Gambella Region",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Electrical & Computer Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Marketing",
+        "Logistics & Supply Chain Management",
+        "Public Health",
+        "Sociology",
+        "Psychology",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's"
+      ]
+    },
+    "stats": {
+      "unitCount": 6,
+      "departmentCount": 25,
+      "programmeCount": 26
+    }
+  },
+  {
+    "slug": "haramaya-university",
+    "name": "Haramaya University",
+    "alternateNames": [
+      "HU"
+    ],
+    "officialWebsite": "https://www.haramaya.edu.et/",
+    "institutionType": null,
+    "city": "Haramaya",
+    "region": "Oromia (mailing address: Dire Dawa)",
+    "regionGroup": "Oromia",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Business Administration",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Veterinary Medicine",
+        "Agriculture",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD",
+        "Specialization"
+      ]
+    },
+    "stats": {
+      "unitCount": 11,
+      "departmentCount": 32,
+      "programmeCount": 139
+    }
+  },
+  {
+    "slug": "hawassa-university",
+    "name": "Hawassa University",
+    "alternateNames": [
+      "HU"
+    ],
+    "officialWebsite": "https://www.hu.edu.et/",
+    "institutionType": null,
+    "city": "Hawassa",
+    "region": "Sidama Region",
+    "regionGroup": "Sidama Region",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities",
+        "Arts & Design"
+      ],
+      "departments": [
+        "Electrical & Computer Engineering",
+        "Civil Engineering",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Logistics & Supply Chain Management",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 11,
+      "departmentCount": 44,
+      "programmeCount": 20
+    }
+  },
+  {
+    "slug": "injibara-university",
+    "name": "Injibara University",
+    "alternateNames": [
+      "INU"
+    ],
+    "officialWebsite": "https://www.inu.edu.et/",
+    "institutionType": null,
+    "city": "Injibara",
+    "region": "Amhara (Awi Zone)",
+    "regionGroup": "Amhara",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Software Engineering",
+        "Information Technology",
+        "Civil Engineering",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Veterinary Medicine",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Political Science",
+        "Journalism & Communication",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 9,
+      "departmentCount": 51,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "jigjiga-university",
+    "name": "Jigjiga University",
+    "alternateNames": [
+      "JJU"
+    ],
+    "officialWebsite": "https://www.jju.edu.et/",
+    "institutionType": null,
+    "city": "Jigjiga",
+    "region": "Somali Region",
+    "regionGroup": "Somali Region",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Nursing",
+        "Midwifery",
+        "Public Health",
+        "Veterinary Medicine",
+        "Sociology",
+        "Psychology",
+        "Political Science",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Master's"
+      ]
+    },
+    "stats": {
+      "unitCount": 10,
+      "departmentCount": 41,
+      "programmeCount": 3
+    }
+  },
+  {
+    "slug": "jimma-university",
+    "name": "Jimma University",
+    "alternateNames": [
+      "JU"
+    ],
+    "officialWebsite": "https://www.ju.edu.et/",
+    "institutionType": null,
+    "city": "Jimma",
+    "region": "Oromia",
+    "regionGroup": "Oromia",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Biomedical Engineering",
+        "Architecture",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Public Health",
+        "Veterinary Medicine",
+        "Agriculture",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 8,
+      "departmentCount": 32,
+      "programmeCount": 101
+    }
+  },
+  {
+    "slug": "jinka-university",
+    "name": "Jinka University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.jnu.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "kebri-dehar-university",
+    "name": "Kebri Dehar University",
+    "alternateNames": [
+      "KDU",
+      "Kabridahar University"
+    ],
+    "officialWebsite": "https://www.kdu.edu.et/",
+    "institutionType": null,
+    "city": "Kebri Dehar",
+    "region": "Somali Region",
+    "regionGroup": "Somali Region",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Information Technology",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Business Administration",
+        "Logistics & Supply Chain Management",
+        "Nursing",
+        "Public Health",
+        "Veterinary Medicine",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Political Science",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's"
+      ]
+    },
+    "stats": {
+      "unitCount": 8,
+      "departmentCount": 32,
+      "programmeCount": 11
+    }
+  },
+  {
+    "slug": "kotebe-university-of-education",
+    "name": "Kotebe University of Education",
+    "alternateNames": [
+      "KUE",
+      "Kotebe Metropolitan University"
+    ],
+    "officialWebsite": "https://kue.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "madda-walabu-university",
+    "name": "Madda Walabu University",
+    "alternateNames": [
+      "MWU"
+    ],
+    "officialWebsite": "https://www.mwu.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "mekdela-amba-university",
+    "name": "Mekdela Amba University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.mamu.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "mekelle-university",
+    "name": "Mekelle University",
+    "alternateNames": [
+      "MU"
+    ],
+    "officialWebsite": "https://www.mu.edu.et/",
+    "institutionType": null,
+    "city": "Mekelle",
+    "region": "Tigray",
+    "regionGroup": "Tigray",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities",
+        "Arts & Design"
+      ],
+      "departments": [
+        "Electrical & Computer Engineering",
+        "Mechanical Engineering",
+        "Chemical Engineering",
+        "Industrial Engineering",
+        "Architecture",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Logistics & Supply Chain Management",
+        "Veterinary Medicine",
+        "Psychology",
+        "Political Science",
+        "Journalism & Communication",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's"
+      ]
+    },
+    "stats": {
+      "unitCount": 11,
+      "departmentCount": 0,
+      "programmeCount": 73
+    }
+  },
+  {
+    "slug": "mettu-university",
+    "name": "Mettu University",
+    "alternateNames": [
+      "Mattu University",
+      "Yuunivarsiitii Mattuu",
+      "መቱ ዩኒቨርሲቲ"
+    ],
+    "officialWebsite": "https://www.meu.edu.et/",
+    "institutionType": null,
+    "city": "Mettu",
+    "region": "Oromia (Illubabor Zone)",
+    "regionGroup": "Oromia",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Industrial Engineering",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Logistics & Supply Chain Management",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Veterinary Medicine",
+        "Agriculture",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Master's",
+        "Bachelor's"
+      ]
+    },
+    "stats": {
+      "unitCount": 11,
+      "departmentCount": 9,
+      "programmeCount": 20
+    }
+  },
+  {
+    "slug": "mizan-tepi-university",
+    "name": "Mizan-Tepi University",
+    "alternateNames": [
+      "MTU"
+    ],
+    "officialWebsite": "https://www.mtu.edu.et/",
+    "institutionType": null,
+    "city": "Mizan-Aman",
+    "region": "South West Ethiopia Peoples' Region (SWERS)",
+    "regionGroup": "South West Ethiopia Peoples' Region",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Business Administration",
+        "Logistics & Supply Chain Management",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Psychology",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Master's",
+        "Bachelor's"
+      ]
+    },
+    "stats": {
+      "unitCount": 7,
+      "departmentCount": 31,
+      "programmeCount": 10
+    }
+  },
+  {
+    "slug": "oda-bultum-university",
+    "name": "Oda Bultum University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.odabultum.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "raya-university",
+    "name": "Raya University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.ru.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-20",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "salale-university",
+    "name": "Salale University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.seu.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "samara-university",
+    "name": "Samara University",
+    "alternateNames": [
+      "SU"
+    ],
+    "officialWebsite": "https://www.su.edu.et/",
+    "institutionType": "Public",
+    "city": "Samara",
+    "region": "Afar",
+    "regionGroup": "Afar",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 11,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "university-of-gondar",
+    "name": "University of Gondar",
+    "alternateNames": [
+      "UoG"
+    ],
+    "officialWebsite": "https://www.uog.edu.et/",
+    "institutionType": null,
+    "city": "Gondar",
+    "region": "Amhara",
+    "regionGroup": "Amhara",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities",
+        "Arts & Design"
+      ],
+      "departments": [
+        "Computer Science",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Biomedical Engineering",
+        "Industrial Engineering",
+        "Architecture",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Logistics & Supply Chain Management",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Veterinary Medicine",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's"
+      ]
+    },
+    "stats": {
+      "unitCount": 11,
+      "departmentCount": 16,
+      "programmeCount": 2
+    }
+  },
+  {
+    "slug": "wachemo-university",
+    "name": "Wachemo University",
+    "alternateNames": [
+      "WCU",
+      "ዋቸሞ ዩኒቨርሲቲ"
+    ],
+    "officialWebsite": "https://www.wcu.edu.et/",
+    "institutionType": null,
+    "city": "Hosaena",
+    "region": "Central Ethiopia Region (SNNPR at time of some department pages)",
+    "regionGroup": "Central Ethiopia Region",
+    "generation": "3rd Generation",
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Mechanical Engineering",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Business Administration",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Master's"
+      ]
+    },
+    "stats": {
+      "unitCount": 9,
+      "departmentCount": 9,
+      "programmeCount": 4
+    }
+  },
+  {
+    "slug": "werabe-university",
+    "name": "Werabe University",
+    "alternateNames": [],
+    "officialWebsite": "https://www.wbu.edu.et/",
+    "institutionType": null,
+    "city": null,
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 0,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "wolaita-sodo-university",
+    "name": "Wolaita Sodo University",
+    "alternateNames": [
+      "WSU"
+    ],
+    "officialWebsite": "https://www.wsu.edu.et/",
+    "institutionType": null,
+    "city": "Wolaita Sodo",
+    "region": null,
+    "regionGroup": null,
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Architecture",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Veterinary Medicine",
+        "Animal Science",
+        "Sociology",
+        "Psychology",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 11,
+      "departmentCount": 9,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "woldia-university",
+    "name": "Woldia University",
+    "alternateNames": [
+      "WLDU"
+    ],
+    "officialWebsite": "https://www.wldu.edu.et/",
+    "institutionType": "Public",
+    "city": "Woldia",
+    "region": "Amhara",
+    "regionGroup": "Amhara",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [],
+      "departments": [],
+      "categories": [],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 10,
+      "departmentCount": 0,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "wolkite-university",
+    "name": "Wolkite University",
+    "alternateNames": [
+      "WKU"
+    ],
+    "officialWebsite": "https://www.wku.edu.et/",
+    "institutionType": null,
+    "city": "Wolkite",
+    "region": "Central Ethiopia Region (Gurage Zone)",
+    "regionGroup": "Central Ethiopia Region",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Social Sciences & Humanities",
+        "Arts & Design"
+      ],
+      "departments": [
+        "Software Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Architecture",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Marketing",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Sociology",
+        "Psychology",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 9,
+      "departmentCount": 14,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "wollega-university",
+    "name": "Wollega University",
+    "alternateNames": [
+      "Wallaga University"
+    ],
+    "officialWebsite": "https://www.wollegauniversity.edu.et/",
+    "institutionType": null,
+    "city": "Nekemte",
+    "region": "Oromia",
+    "regionGroup": "Oromia",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Natural & Physical Sciences",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Information Technology",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Architecture",
+        "Construction Technology & Management",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Economics",
+        "Psychology",
+        "Journalism & Communication"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": []
+    },
+    "stats": {
+      "unitCount": 9,
+      "departmentCount": 5,
+      "programmeCount": 0
+    }
+  },
+  {
+    "slug": "wollo-university",
+    "name": "Wollo University",
+    "alternateNames": [
+      "WU"
+    ],
+    "officialWebsite": "https://www.wu.edu.et/",
+    "institutionType": null,
+    "city": "Dessie",
+    "region": "Amhara (South Wollo Zone)",
+    "regionGroup": "Amhara",
+    "generation": null,
+    "status": "needs_review",
+    "lastChecked": "2026-07-22",
+    "facets": {
+      "professions": [
+        "Engineering & Technology",
+        "Computing & Information Technology",
+        "Medicine & Health Sciences",
+        "Natural & Physical Sciences",
+        "Agriculture & Veterinary Medicine",
+        "Business & Economics",
+        "Education & Teacher Training",
+        "Social Sciences & Humanities"
+      ],
+      "departments": [
+        "Computer Science",
+        "Software Engineering",
+        "Information Technology",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Statistics",
+        "Biology",
+        "Geology",
+        "Economics",
+        "Marketing",
+        "Business Administration",
+        "Nursing",
+        "Midwifery",
+        "Pharmacy",
+        "Public Health",
+        "Medical Laboratory Sciences",
+        "Sociology",
+        "Political Science",
+        "Journalism & Communication",
+        "English Language & Literature",
+        "Geography"
+      ],
+      "categories": [
+        "Natural Science",
+        "Social Science"
+      ],
+      "degreeLevels": [
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "stats": {
+      "unitCount": 8,
+      "departmentCount": 12,
+      "programmeCount": 23
+    }
+  }
+]

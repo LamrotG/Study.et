@@ -1,0 +1,1 @@
+Study.et believes that choosing a university should never depend on knowing where to look. Information should be open, trustworthy, and easy to discover. We are building the knowledge infrastructure that helps every student explore higher education in Ethiopia with confidence.

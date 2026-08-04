@@ -1,0 +1,37 @@
+---
+name: "Ethiopian Public Service University"
+slug: "ethiopian-public-service-university"
+officialWebsite: "https://www.epsu.edu.et/"
+alternateNames: ["EPSU", "Ethiopian Civil Service University"]
+institutionType: null
+mainLocation:
+  city: null
+  region: null
+status: "needs_review"
+lastChecked: "2026-07-20"
+sourceCount: 1
+---
+
+# Ethiopian Public Service University
+
+## Overview
+
+- **Official website:** [https://www.epsu.edu.et/](https://www.epsu.edu.et/) (content inaccessible — see Data Notes)
+- **Institution type:** Not confirmed
+- **Main location:** Not confirmed
+- **Data status:** Needs review
+
+## Academic Units
+
+No academic units could be confirmed. The site's HTML shell loads (confirming the domain and title "Ethiopian Civil Service University," consistent with the university's former name per the project's source list), but all page content is rendered client-side by a JavaScript application, and the HTTPS connection needed to load and execute that application timed out on every attempt.
+
+## Source Register
+
+1. `http://www.epsu.edu.et/` — HTML shell only (title tag and asset links), accessed 2026-07-20; the HTTPS version needed for full rendering timed out repeatedly.
+
+## Data Notes
+
+- `https://www.epsu.edu.et/` consistently timed out (connection established, then no response within 20+ seconds) both in-browser and via direct HTTPS request.
+- The plain HTTP version returns only an empty single-page-application shell (`<div id="app"></div>` plus script/style tags) with no server-rendered content, so no departments, programmes, or institutional facts could be extracted even via direct HTML retrieval.
+- The HTML `<title>` confirms "Ethiopian Civil Service University," matching the "(formerly Ethiopian Civil Service University)" note for this entry in the project's source list — confirming this is the correct domain, just currently inaccessible.
+- Recommended human action: retry later in case the HTTPS timeout is temporary server load; if it persists, contact EPSU's ICT office, or attempt access from a different network path.

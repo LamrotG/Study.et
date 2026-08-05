@@ -1,8 +1,14 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { University, UniversityLite } from "@/lib/data";
+import { getAllUniversities, type University, type UniversityLite } from "@/lib/data";
 import { UniversityCard } from "@/components/university/UniversityCard";
+import {
+  ProgramCard,
+  DegreeCard,
+  type PopularProgram,
+  type PopularDegree,
+} from "@/components/university/PopularCards";
 import {
   FilterPanel,
   EMPTY_FILTERS,
@@ -97,17 +103,6 @@ const GRID_CLASSES = "grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:gr
 
 type PopularTab = "universities" | "programs" | "degrees";
 
-type PopularProgram = {
-  name: string;
-  universitySlug: string;
-  universityName: string;
-};
-
-type PopularDegree = {
-  level: string;
-  count: number;
-};
-
 export function UniversityExplorer({
   universities,
   popular,
@@ -133,28 +128,36 @@ export function UniversityExplorer({
     [universities, query, filters]
   );
 
-  // Derive popular programs from the popular universities
+  // Derive popular programs from all universities (not limited to a single one)
   const popularPrograms = useMemo<PopularProgram[]>(() => {
-    if (!popular) return [];
-    const seen = new Set<string>();
-    const programs: PopularProgram[] = [];
-    for (const u of popular) {
+    const all = getAllUniversities();
+    const counts = new Map<string, { count: number; example: University }>();
+    for (const u of all) {
+      const seenInUniversity = new Set<string>();
       for (const unit of u.units) {
         for (const programme of unit.programmes) {
           const name = programme.split("—")[0].trim();
-          if (!seen.has(name)) {
-            seen.add(name);
-            programs.push({
-              name,
-              universitySlug: u.slug,
-              universityName: u.name,
-            });
+          if (!name || seenInUniversity.has(name)) continue;
+          seenInUniversity.add(name);
+          const entry = counts.get(name);
+          if (entry) {
+            entry.count += 1;
+          } else {
+            counts.set(name, { count: 1, example: u });
           }
         }
       }
     }
-    return programs.slice(0, 12);
-  }, [popular]);
+    return [...counts.entries()]
+      .map(([name, { count, example }]) => ({
+        name,
+        universityCount: count,
+        exampleUniversitySlug: example.slug,
+        exampleUniversityName: example.name,
+      }))
+      .sort((a, b) => b.universityCount - a.universityCount)
+      .slice(0, 12);
+  }, []);
 
   // Derive popular degrees from all universities
   const popularDegrees = useMemo<PopularDegree[]>(() => {
@@ -232,16 +235,7 @@ export function UniversityExplorer({
               {popularTab === "programs" && (
                 <div className="flex flex-col gap-2">
                   {popularPrograms.map((p) => (
-                    <a
-                      key={`${p.universitySlug}-${p.name}`}
-                      href={`/university/${p.universitySlug}`}
-                      className="flex items-center justify-between gap-4 rounded-lg border border-line px-4 py-3 text-sm transition-colors hover:border-ink hover:bg-subtle"
-                    >
-                      <span className="font-medium">{p.name}</span>
-                      <span className="truncate text-xs text-muted">
-                        {p.universityName}
-                      </span>
-                    </a>
+                    <ProgramCard key={p.name} program={p} />
                   ))}
                 </div>
               )}
@@ -249,15 +243,7 @@ export function UniversityExplorer({
               {popularTab === "degrees" && (
                 <div className="flex flex-col gap-2">
                   {popularDegrees.map((d) => (
-                    <div
-                      key={d.level}
-                      className="flex items-center justify-between rounded-lg border border-line px-4 py-3 text-sm"
-                    >
-                      <span className="font-medium">{d.level}</span>
-                      <span className="text-xs text-muted">
-                        {d.count} {d.count === 1 ? "university" : "universities"}
-                      </span>
-                    </div>
+                    <DegreeCard key={d.level} degree={d} />
                   ))}
                 </div>
               )}

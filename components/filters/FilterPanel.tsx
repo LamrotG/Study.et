@@ -64,6 +64,12 @@ export function matchesFilters(u: UniversityLite, filters: FilterState): boolean
   return true;
 }
 
+type ChosenFilter = {
+  key: string;
+  group: string;
+  value: string;
+};
+
 export function FilterPanel({
   universities,
   value,
@@ -94,51 +100,97 @@ export function FilterPanel({
     [universities]
   );
 
-  const activeCount = Object.values(value).reduce(
-    (sum, arr) => sum + arr.length,
-    0
-  );
+  const chosenFilters = useMemo<ChosenFilter[]>(() => {
+    const groups: { key: keyof FilterState; group: string }[] = [
+      { key: "regions", group: "Region" },
+      { key: "professions", group: "Profession" },
+      { key: "departments", group: "Department" },
+      { key: "categories", group: "Field category" },
+      { key: "degreeLevels", group: "Degree level" },
+    ];
+    const chosen: ChosenFilter[] = [];
+    for (const { key, group } of groups) {
+      for (const v of value[key]) {
+        chosen.push({ key: `${key}:${v}`, group, value: v });
+      }
+    }
+    return chosen;
+  }, [value]);
+
+  function removeChosen(key: keyof FilterState, v: string) {
+    onChange({
+      ...value,
+      [key]: value[key].filter((x) => x !== v),
+    });
+  }
 
   return (
-    <div className="flex flex-wrap items-start gap-2">
-      <FilterGroup
-        title="Region"
-        options={regionOptions}
-        selected={value.regions}
-        onChange={(regions) => onChange({ ...value, regions })}
-      />
-      <FilterGroup
-        title="Profession"
-        options={professionOptions}
-        selected={value.professions}
-        onChange={(professions) => onChange({ ...value, professions })}
-      />
-      <FilterGroup
-        title="Department"
-        options={departmentOptions}
-        selected={value.departments}
-        onChange={(departments) => onChange({ ...value, departments })}
-      />
-      <FilterGroup
-        title="Field category"
-        options={categoryOptions}
-        selected={value.categories}
-        onChange={(categories) => onChange({ ...value, categories })}
-      />
-      <FilterGroup
-        title="Degree level"
-        options={degreeLevelOptions}
-        selected={value.degreeLevels}
-        onChange={(degreeLevels) => onChange({ ...value, degreeLevels })}
-      />
-      {activeCount > 0 && (
-        <button
-          type="button"
-          onClick={() => onChange(EMPTY_FILTERS)}
-          className="self-center rounded-full border border-line px-3 py-1.5 text-xs text-muted underline-offset-2 hover:border-ink hover:text-ink"
-        >
-          Clear All Filters
-        </button>
+    <div className="flex flex-col gap-3">
+      <div className="flex flex-wrap items-start gap-2">
+        <FilterGroup
+          title="Region"
+          options={regionOptions}
+          selected={value.regions}
+          onChange={(regions) => onChange({ ...value, regions })}
+        />
+        <FilterGroup
+          title="Profession"
+          options={professionOptions}
+          selected={value.professions}
+          onChange={(professions) => onChange({ ...value, professions })}
+        />
+        <FilterGroup
+          title="Department"
+          options={departmentOptions}
+          selected={value.departments}
+          onChange={(departments) => onChange({ ...value, departments })}
+        />
+        <FilterGroup
+          title="Field category"
+          options={categoryOptions}
+          selected={value.categories}
+          onChange={(categories) => onChange({ ...value, categories })}
+        />
+        <FilterGroup
+          title="Degree level"
+          options={degreeLevelOptions}
+          selected={value.degreeLevels}
+          onChange={(degreeLevels) => onChange({ ...value, degreeLevels })}
+        />
+      </div>
+
+      {chosenFilters.length > 0 && (
+        <div className="flex flex-wrap items-center gap-2">
+          {chosenFilters.map((f) => (
+            <span
+              key={f.key}
+              className="flex items-center gap-1.5 rounded-full border border-ink bg-ink px-3 py-1.5 text-[13px] text-paper"
+            >
+              <span className="text-paper/70">{f.group}:</span>
+              <span>{f.value}</span>
+              <button
+                type="button"
+                aria-label={`Remove ${f.group} ${f.value}`}
+                onClick={() =>
+                  removeChosen(
+                    f.key.split(":")[0] as keyof FilterState,
+                    f.value
+                  )
+                }
+                className="ml-0.5 text-paper/70 transition-colors hover:text-paper"
+              >
+                ✕
+              </button>
+            </span>
+          ))}
+          <button
+            type="button"
+            onClick={() => onChange(EMPTY_FILTERS)}
+            className="rounded-full border border-line px-3 py-1.5 text-xs text-muted underline-offset-2 hover:border-ink hover:text-ink"
+          >
+            Clear All Filters
+          </button>
+        </div>
       )}
     </div>
   );

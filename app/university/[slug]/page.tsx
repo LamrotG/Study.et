@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getAllUniversities, getUniversityBySlug } from "@/lib/data";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { AcademicUnitAccordion } from "@/components/university/AcademicUnitAccordion";
+import { UniversityLogo } from "@/components/university/UniversityLogo";
 
 export function generateStaticParams() {
   return getAllUniversities().map((u) => ({ slug: u.slug }));
@@ -42,30 +43,44 @@ export default async function UniversityPage({
         ]}
       />
 
-      <h1 className="mt-4 text-2xl font-semibold tracking-tight sm:text-3xl">
-        {university.name}
-      </h1>
+      <div className="mt-6 flex items-start justify-between gap-4">
+        <div className="flex min-w-0 items-start gap-4">
+          <UniversityLogo
+            slug={university.slug}
+            name={university.name}
+            className="h-16 w-16"
+          />
+          <div className="min-w-0">
+            <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+              {university.name}
+            </h1>
 
-      {university.alternateNames.length > 0 && (
-        <p className="mt-1 text-sm text-muted">
-          {university.alternateNames.join(" · ")}
-        </p>
-      )}
+            {university.alternateNames.length > 0 && (
+              <p className="mt-1 text-sm text-muted">
+                {university.alternateNames.join(" · ")}
+              </p>
+            )}
 
-      <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm text-muted">
-        {location && <span>{location}</span>}
-        {university.institutionType && <span>{university.institutionType}</span>}
+            <div className="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-sm text-muted">
+              {location && <span>{location}</span>}
+              {university.institutionType && <span>{university.institutionType}</span>}
+            </div>
+          </div>
+        </div>
+
         {university.officialWebsite && (
           <a
             href={university.officialWebsite}
             target="_blank"
             rel="noreferrer noopener"
-            className="underline underline-offset-2 hover:text-ink"
+            className="shrink-0 text-sm underline underline-offset-2 hover:text-ink"
           >
             Official website ↗
           </a>
         )}
       </div>
+
+      <hr className="mt-6 border-line" />
 
       <div className="mt-10">
         {university.units.length > 0 ? (

@@ -73,12 +73,15 @@ export function FilterGroup({
   };
 
   return (
-    <div className="relative">
+    <div
+      className="relative"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
       <button
         type="button"
         aria-expanded={open}
         aria-controls={groupId}
-        onClick={() => setOpen((o) => !o)}
         className={`flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-[13px] transition-colors ${
           selected.length > 0
             ? "border-ink bg-ink text-paper"
@@ -96,7 +99,7 @@ export function FilterGroup({
           </span>
         )}
         <span aria-hidden="true" className="text-xs">
-          {open ? "−" : "+"}
+          +
         </span>
       </button>
 

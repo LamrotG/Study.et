@@ -233,7 +233,7 @@ export function UniversityExplorer({
               )}
 
               {popularTab === "programs" && (
-                <div className="flex flex-col gap-2">
+                <div className={GRID_CLASSES}>
                   {popularPrograms.map((p) => (
                     <ProgramCard key={p.name} program={p} />
                   ))}
@@ -241,7 +241,7 @@ export function UniversityExplorer({
               )}
 
               {popularTab === "degrees" && (
-                <div className="flex flex-col gap-2">
+                <div className={GRID_CLASSES}>
                   {popularDegrees.map((d) => (
                     <DegreeCard key={d.level} degree={d} />
                   ))}

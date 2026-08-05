@@ -34,7 +34,7 @@ export default async function UniversityPage({
     .join(", ");
 
   return (
-    <main className="mx-auto max-w-2xl px-6 py-16">
+    <main className="px-6 py-16 lg:px-[120px]">
       <Breadcrumbs
         items={[
           { label: "Home", href: "/" },
@@ -48,7 +48,7 @@ export default async function UniversityPage({
           <UniversityLogo
             slug={university.slug}
             name={university.name}
-            className="h-16 w-16"
+            className="h-20 w-20"
           />
           <div className="min-w-0">
             <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">

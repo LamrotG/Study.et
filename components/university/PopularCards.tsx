@@ -27,26 +27,28 @@ export function ProgramCard({ program }: { program: PopularProgram }) {
   return (
     <Link
       href={`/university/${program.exampleUniversitySlug}`}
-      className="group flex items-center gap-4 rounded-lg border border-line p-4 transition-colors hover:border-ink hover:bg-subtle"
+      className="group flex h-full flex-col gap-3 rounded-lg border border-line p-5 transition-colors hover:border-ink hover:bg-subtle"
     >
-      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-line text-xs text-muted">
-        {initials(program.name)}
-      </span>
+      <div className="flex items-start justify-between gap-2">
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-line text-xs text-muted">
+          {initials(program.name)}
+        </span>
+        <span
+          aria-hidden="true"
+          className="text-muted transition-transform group-hover:translate-x-0.5"
+        >
+          →
+        </span>
+      </div>
       <div className="min-w-0 flex-1">
-        <h3 className="truncate text-[15px] leading-snug">{program.name}</h3>
-        <p className="mt-0.5 truncate text-sm text-muted">
+        <h3 className="text-[15px] leading-snug">{program.name}</h3>
+        <p className="mt-1 truncate text-sm text-muted">
           {program.exampleUniversityName}
         </p>
       </div>
-      <span className="shrink-0 rounded-full bg-subtle px-2 py-0.5 text-xs text-muted">
+      <span className="rounded-full bg-subtle px-2 py-0.5 text-xs text-muted">
         {program.universityCount}{" "}
         {program.universityCount === 1 ? "university" : "universities"}
-      </span>
-      <span
-        aria-hidden="true"
-        className="shrink-0 text-muted transition-transform group-hover:translate-x-0.5"
-      >
-        →
       </span>
     </Link>
   );
@@ -54,14 +56,16 @@ export function ProgramCard({ program }: { program: PopularProgram }) {
 
 export function DegreeCard({ degree }: { degree: PopularDegree }) {
   return (
-    <div className="group flex items-center gap-4 rounded-lg border border-line p-4 transition-colors hover:border-ink hover:bg-subtle">
-      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-line text-xs text-muted">
-        {initials(degree.level)}
-      </span>
-      <div className="min-w-0 flex-1">
-        <h3 className="truncate text-[15px] leading-snug">{degree.level}</h3>
+    <div className="group flex h-full flex-col gap-3 rounded-lg border border-line p-5 transition-colors hover:border-ink hover:bg-subtle">
+      <div className="flex items-start justify-between gap-2">
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-line text-xs text-muted">
+          {initials(degree.level)}
+        </span>
       </div>
-      <span className="shrink-0 rounded-full bg-subtle px-2 py-0.5 text-xs text-muted">
+      <div className="min-w-0 flex-1">
+        <h3 className="text-[15px] leading-snug">{degree.level}</h3>
+      </div>
+      <span className="rounded-full bg-subtle px-2 py-0.5 text-xs text-muted">
         {degree.count} {degree.count === 1 ? "university" : "universities"}
       </span>
     </div>
